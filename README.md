@@ -16,7 +16,7 @@ estimate();
 estimate(new Date(2030,5,1));
 ```
 
-This package also exports a few other functions that you might find useful. See `src/tests.ts` for more examples.
+This package also exports a few other functions that you might find useful. See [`src/test.ts`](https://github.com/michaelmcandrew/world-population/blob/master/src/test.ts) for more examples.
 
 ## Updating the dataset
 
