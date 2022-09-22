@@ -2,7 +2,8 @@
   "name": "world-population",
   "version": "1.0.0",
   "description": "World Population Counter, based on UN World Population Prospects data",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "ts-node src/test.ts",
@@ -10,13 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelmcandrew/world-population.git"
+    "url": "https://github.com/michaelmcandrew/world-population.git"
   },
   "keywords": [
     "world",
     "population"
   ],
-  "author": "Michael McAndrew <michael@3sd.io>",
+  "contributors": [
+    "Michael McAndrew <michael@3sd.io>",
+    "Population Matters <https://populationmatters.org/>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/michaelmcandrew/world-population/issues"
