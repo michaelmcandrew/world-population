@@ -1,6 +1,6 @@
 {
   "name": "world-population",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "World Population Counter, based on UN World Population Prospects data",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
