@@ -8,7 +8,7 @@ console.log(
 
 // Check estimateDate() function.
 console.log(
-  "World population will reach 8 billion at:",
+  "World population reached 8 billion at:",
   estimateDate(8_000_000_000)
 );
 console.log(
@@ -19,7 +19,7 @@ console.log(
 // Create a basic counter.
 console.log("Another human is born every", interval(), "milliseconds.");
 console.log(
-  "The numbers below show the increase in the world's population over the next 10 seconds..."
+  "The numbers below show the increase in the world's population over the next 10 seconds:"
 );
 
 const intervalId = setInterval(() => {
@@ -28,5 +28,4 @@ const intervalId = setInterval(() => {
 
 setTimeout(() => {
   clearInterval(intervalId);
-  console.log("That's all folks!");
 }, 10_000);
